@@ -1,0 +1,29 @@
+{
+  "name": "assignment-angularjs-dev",
+  "version": "1.0.0",
+  "description": "sample application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prolanceer/assignment-angularjs-dev.git"
+  },
+  "author": "jyotheeswar chowdary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prolanceer/assignment-angularjs-dev/issues"
+  },
+  "homepage": "https://github.com/Prolanceer/assignment-angularjs-dev#readme",
+  "dependencies": {
+    "angular": "^1.6.7",
+    "angular-chart.js": "^1.1.1",
+    "grunt-init": "^0.3.2",
+    "moment": "^2.19.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
+}

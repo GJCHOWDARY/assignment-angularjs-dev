@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <body>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="node_modules/chart.js/dist/Chart.min.js"></script>
+  <script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+  <script src="bower_components/angular-momentjs/angular-momentjs.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="scripts/controllers/home.js"></script>
+  <div ng-app="shopayeApp" ng-controller="myCtrl">
+    <div class="row">
+      <div class="col-md-6  col-lg-8">
+        <hr>
+        <div class="panel panel-default">
+          <div class="panel-heading text-center"style="color:#de7d36;">
+            <center><b>Exchange Rate of All Crypto Currencies</b></center>
+          </div>
+          <hr>
+          <!-- <nvd3 options="barchartoptions" data="saledata"></nvd3> -->
+          <canvas id="bar" class="chart chart-bar" style="height: 600px; display: block; width: 100%;"
+          chart-data="data" chart-labels="labels" chart-series="series">
+        </canvas>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
